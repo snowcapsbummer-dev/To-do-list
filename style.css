@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #2a2a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="date"] {
+  flex: 1;
+}
+
+button {
+  background: #5a67d8;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #434190;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  margin: 0 5px;
+  background: #38b2ac;
+}
+
+.filters button:hover {
+  background: #2c7a7b;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3b52;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.delete-btn {
+  background: crimson;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
